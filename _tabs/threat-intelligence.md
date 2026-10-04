@@ -2,7 +2,7 @@
 layout: page
 title: Threat Intelligence
 icon: fas fa-magnifying-glass
-order: 4
+order: 3
 ---
 
 {% assign posts = site.categories["Threat Intelligence"] %}
