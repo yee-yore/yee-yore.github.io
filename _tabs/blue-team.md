@@ -2,7 +2,7 @@
 layout: page
 title: Blue Team
 icon: fas fa-shield-halved
-order: 3
+order: 2
 ---
 
 {% assign posts = site.categories["Blue Team"] %}
