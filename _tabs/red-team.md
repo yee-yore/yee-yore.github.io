@@ -2,7 +2,7 @@
 layout: page
 title: Red Team
 icon: fas fa-user-secret
-order: 2
+order: 1
 ---
 
 {% assign posts = site.categories["Red Team"] %}
