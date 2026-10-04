@@ -2,7 +2,7 @@
 layout: page
 title: Review
 icon: fas fa-book-open
-order: 5
+order: 4
 ---
 
 {% for post in site.categories.Review %}
