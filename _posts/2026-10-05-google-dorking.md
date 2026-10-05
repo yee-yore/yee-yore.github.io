@@ -20,9 +20,9 @@ Google Dorking(=Google Hacking)은 Google 검색엔진에서 필터와 연산자
 | `filetype:` / `ext:` | 특정 확장자의 파일 | `ext:pdf`, `filetype:xlsx` |
 | `"..."` | 정확히 일치하는 문구 | `"internal use only"` |
 | `-` | 특정 단어나 조건 제외 | `site:example.com -www` |
-| `\|` / `OR` | 둘 중 하나라도 포함 | `ext:pdf \| ext:docx` |
+| `\|` / `OR` | 둘 중 하나라도 포함 | `ext:pdf | ext:docx` |
 | `*` | 임의의 단어(와일드카드) | `"admin * panel"` |
-| `( )` | 조건 묶기 | `(inurl:v1 \| inurl:v2)` |
+| `( )` | 조건 묶기 | `(inurl:v1 | inurl:v2)` |
 | `before:` / `after:` | 특정 날짜 기준 이전/이후 | `after:2026-01-01` |
 
 AND는 따로 연산자를 쓰지 않고 공백으로 이어 붙이면 모든 조건을 만족하는 결과만 나온다.
