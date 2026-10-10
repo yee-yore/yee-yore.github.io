@@ -20,12 +20,12 @@ h1, h2, h3 {
 }
 
 /* ===== 포인트 컬러: 앰버/주황 ===== */
-html:not([data-mode]),
-html[data-mode="light"] {
+:root:not([data-mode]),
+:root[data-mode="light"] {
   --link-color: #b45309;
 }
 
-html[data-mode="dark"] {
+:root[data-mode="dark"] {
   --link-color: #f59e0b;
 }
 
