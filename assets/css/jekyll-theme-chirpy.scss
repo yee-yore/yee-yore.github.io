@@ -8,7 +8,6 @@
 {%- endif -%}
 ';
 
-/* ===== 커스텀 폰트 ===== */
 html, body {
   font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, sans-serif;
@@ -19,14 +18,17 @@ h1, h2, h3 {
   letter-spacing: -0.02em;
 }
 
-/* ===== 포인트 컬러: 앰버/주황 ===== */
 :root:not([data-mode]),
 :root[data-mode="light"] {
   --link-color: #b45309;
+  --body-bg: #fdf6ec;        /* 페이지 바깥쪽 — 연한 아이보리/앰버 틴트 */
+  --sidebar-bg: #faecd8;     /* 사이드바 — 살짝 더 진한 앰버 틴트 */
 }
 
 :root[data-mode="dark"] {
   --link-color: #f59e0b;
+  --body-bg: #211a12;        /* 다크모드 페이지 배경 — 다크 브라운 톤 */
+  --sidebar-bg: #2a2117;     /* 다크모드 사이드바 */
 }
 
 ::selection {
