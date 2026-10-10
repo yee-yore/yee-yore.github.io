@@ -1,0 +1,34 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* ===== 커스텀 폰트 ===== */
+html, body {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'JetBrains Mono', 'Pretendard Variable', monospace;
+  letter-spacing: -0.02em;
+}
+
+/* ===== 포인트 컬러: 앰버/주황 ===== */
+html:not([data-mode]),
+html[data-mode="light"] {
+  --link-color: #b45309;
+}
+
+html[data-mode="dark"] {
+  --link-color: #f59e0b;
+}
+
+::selection {
+  background: #d9770633;
+}
